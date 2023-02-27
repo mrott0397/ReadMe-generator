@@ -1,7 +1,7 @@
-# mine
+# morgan
 
 ## Description
-mine
+morgan
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,19 +12,21 @@ mine
 - [Apps Used](#applications-used)
 
 ## Installation
-none
+morgan
 
 ## Usage
-none
+morgqn
 
 ## License
-Apache
+[![License](https://img.shields.io/badge/License-Apache-blue.svg)](https://opensource.org/licenses/Apache)
+
+
 
 ## How to Contribute
-none
+morgan
 
 ## Test
-none
+morgan
 
 ## Applications Use
-none
+morgan

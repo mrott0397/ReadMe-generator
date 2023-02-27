@@ -36,7 +36,9 @@ ${dependencies}
 ${usage}
 
 ## License
-${license}
+[![License](https://img.shields.io/badge/License-${license}-blue.svg)](https://opensource.org/licenses/${license})
+
+
 
 ## How to Contribute
 ${contribute}
