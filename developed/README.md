@@ -29,8 +29,6 @@ NA
 ## Test
 node
 
-Recording of Test : https://drive.google.com/drive/folders/1-3RhznfasaLGXy3s5nCtfy9ygBCmRDcS?usp=share_link
-
 
 ## Questions
 If you have any questions, please contact me at todo978@gmail.com, and check out more of my work at https://github.com/mrott0397

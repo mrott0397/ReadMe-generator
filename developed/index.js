@@ -2,7 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-const generateMarkdown = ({ project, description, license, dependencies, test, contribute, usage, apps }) =>
+const generateMarkdown = ({ email, github, project, description, license, dependencies, test, contribute, usage }) =>
 `# ${project}
 
 ## Description
@@ -15,6 +15,7 @@ ${description}
 - [Contribute](#how-to-contribute)
 - [Test](#test)
 - [Apps Used](#applications-used)
+- [Questions](#questions)
 
 ## Installation
 ${dependencies}
@@ -33,15 +34,16 @@ ${contribute}
 ## Test
 ${test}
 
-## Applications Used
-${apps}
+
+## Questions
+If you have any questions, please contact me at ${email}, and check out more of my work at https://github.com/${github}
 `;
 
 inquirer
   .prompt ([
     {
       type: 'input',
-      name: 'name',
+      name: 'github',
       message: 'What is your GitHub username?',
     },
     {
@@ -83,12 +85,7 @@ inquirer
       {
         type: 'input',
         name: 'usage',
-        message: 'What does the user need about using this repo?',
-      },
-      {
-        type: 'input',
-        name: 'apps',
-        message: 'What applications did you use for this project?',
+        message: 'What does the user need to know about using this repo?',
       },
   ])
   .then((data) => {
